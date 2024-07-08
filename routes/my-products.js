@@ -9,11 +9,13 @@ router.get('/', async function (req, res) {
   // 分頁 (查詢字串QS: page=2&perpage=5)
   // 預設值 page = 1, perpage = 10
   const page = req.query.page || 1
-  const perpage = Number(req.query.page) || 10
+  const perpage = Number(req.query.perpage) || 10
   const offset = (page - 1) * perpage
   const limit = perpage
 
-  const [rows] = await db.query(`SELECT * FROM LIMIT ${limit} OFFSET ${offset}`)
+  const [rows] = await db.query(
+    `SELECT * FROM my_product LIMIT  ${limit} OFFSET ${offset}`
+  )
   const products = rows
 
   // 計算在此條件下總共多少筆(WHERE)
