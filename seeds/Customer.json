@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "email": "herry@test.com",
+    "password": "11111",
+    "name": "哈利", 
+    "phone": "0906102808",
+    "gender": "男",
+    "birthday": "1980-07-13", 
+    "address": "桃園市桃園區劉南路377號18樓",
+    "introduction": "My name is Herry. I love camping.",
+    "id_card":"E185416832"
+  }
+]
