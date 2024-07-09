@@ -34,11 +34,11 @@ export default async function (sequelize) {
         allowNull: true,
       },
       address: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: true,
       },
       introduction: {
-        type: DataTypes.STRING(1234),
+        type: DataTypes.TEXT,
         allowNull: true,
       },
       id_card: {
