@@ -10,5 +10,17 @@
     "address": "桃園市桃園區劉南路377號18樓",
     "introduction": "My name is Herry. I love camping.",
     "id_card":"E185416832"
+  },
+  {
+    "id": 2,
+    "email": "sun@test.com",
+    "password": "22222",
+    "name": "日向翔陽", 
+    "phone": "0906102808",
+    "gender": "男",
+    "birthday": "1980-07-13", 
+    "address": "日本岩手縣",
+    "introduction": "My name is hinada. I love dodge ball.",
+    "id_card":"E185416832"
   }
 ]
